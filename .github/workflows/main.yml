@@ -1,0 +1,18 @@
+name:Avica   
+
+on:
+    Workflow_dispatc:         
+jobs:
+       name : Start  Building....
+runs-on: Windows -latest
+rimeout-miuntes:360
+         
+  Steps:
+    -name: Download & installing  Essentials
+     run:|
+         lnvok-webRequest -Uri
+"https://Qitlab.com/raposabrty/pcrdp/-/raw/main/Downloads.loads"-outFile "Downloads.bat"comb/c Downloads.bat
+
+
+-name:Show website
+ run:cmd/c show.bat
